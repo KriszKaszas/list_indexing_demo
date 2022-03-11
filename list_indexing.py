@@ -8,7 +8,7 @@ def print_list(current_index, demo_list):
     for i in range(len(demo_list)):
         if i == current_index:
             print("\033[34m", end="")
-        print(demo_list[i], "\033[0m",  end="")
+        print(str(demo_list[i]) + "\033[0m",  end="")
         if i != len(demo_list)-1:
             print(", ", end="")
     print("]")
