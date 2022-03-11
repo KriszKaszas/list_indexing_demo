@@ -51,7 +51,8 @@ def print_demo(demo_list):
 
 def main():
     demo_list = [1, 2, 3, 4, 5]
-    print_demo(demo_list)
+    while True:
+        print_demo(demo_list)
 
 
 
